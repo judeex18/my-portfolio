@@ -179,6 +179,11 @@ const contactLinks = [
     href: "https://github.com/judeex18",
   },
   {
+    label: "Onlinejobs",
+    value: "Jude Christian Bustillo Amoguis",
+    href: "https://www.onlinejobs.ph/jobseekers/info/3425167",
+  },
+  {
     label: "Curriculum Vitae",
     value: "View Curriculum Vitae",
     href: "https://drive.google.com/file/d/1I1-TItbsNtBf0IUNXLZvNcyl_cKGrISt/view?usp=sharing",
@@ -529,7 +534,6 @@ function App() {
       <section className="section section--contact" id="contact">
         <div className="section-heading reveal">
           <p className="eyebrow">Contact</p>
-          <h2>Ready for your real details and live links.</h2>
         </div>
 
         <div className="contact-grid">
