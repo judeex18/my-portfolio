@@ -178,6 +178,11 @@ const contactLinks = [
     value: "judeex18",
     href: "https://github.com/judeex18",
   },
+  {
+    label: "Curriculum Vitae",
+    value: "View Curriculum Vitae",
+    href: "https://drive.google.com/file/d/1I1-TItbsNtBf0IUNXLZvNcyl_cKGrISt/view?usp=sharing",
+  },
 ];
 
 function App() {
