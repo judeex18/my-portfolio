@@ -175,8 +175,8 @@ const contactLinks = [
   },
   {
     label: "GitHub",
-    value: "github.com/judeex18",
-    href: "https://github.com",
+    value: "judeex18",
+    href: "https://github.com/judeex18",
   },
 ];
 
@@ -220,7 +220,7 @@ function App() {
           <div className="hero__actions">
             <a
               className="button button--primary"
-              href="mailto:your.email@example.com"
+              href="mailto:judechristian.amoguis18@gmail.com"
             >
               Contact me
             </a>
