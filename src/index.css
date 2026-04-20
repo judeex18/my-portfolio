@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap");
+
+:root {
+  --bg: #090b14;
+  --bg-alt: #0f1322;
+  --text: #f4f0ea;
+  --muted: #b8b2be;
+  --accent: #ffca6c;
+  --accent-2: #f89265;
+  --accent-soft: #ffdca1;
+  --line: rgba(255, 255, 255, 0.1);
+  --line-strong: rgba(255, 255, 255, 0.18);
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --font-body: "Manrope", sans-serif;
+  --font-display: "Sora", sans-serif;
+
+  color: var(--text);
+  background:
+    radial-gradient(circle at top, rgba(255, 172, 81, 0.1), transparent 38%),
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(184, 109, 255, 0.12),
+      transparent 30%
+    ),
+    linear-gradient(180deg, #070910, #0b1020 52%, #090b14);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: transparent;
+}
+
+body::selection {
+  background: rgba(255, 202, 108, 0.28);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+}
