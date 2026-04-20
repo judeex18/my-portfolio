@@ -174,12 +174,12 @@ const contactLinks = [
     href: "tel:+639088809419",
   },
   {
-    label: "GitHub",
+    label: "GitHub.com",
     value: "judeex18",
     href: "https://github.com/judeex18",
   },
   {
-    label: "Onlinejobs",
+    label: "Onlinejobs.ph",
     value: "Jude Christian Bustillo Amoguis",
     href: "https://www.onlinejobs.ph/jobseekers/info/3425167",
   },
