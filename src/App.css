@@ -4,6 +4,7 @@
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
   padding: 24px 0 56px;
+  overflow-x: clip;
 }
 
 .ambient {
@@ -77,6 +78,7 @@
   font-size: 0.95rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  overflow-wrap: anywhere;
 }
 
 .nav {
@@ -117,6 +119,7 @@
   line-height: 0.95;
   letter-spacing: -0.05em;
   max-width: 10ch;
+  overflow-wrap: anywhere;
 }
 
 .eyebrow {
@@ -345,6 +348,7 @@
   line-height: 1;
   letter-spacing: -0.04em;
   max-width: 14ch;
+  overflow-wrap: anywhere;
 }
 
 .about-grid,
@@ -415,6 +419,7 @@
   margin: 0;
   color: var(--muted);
   line-height: 1.75;
+  overflow-wrap: anywhere;
 }
 
 .panel--soft {
@@ -514,6 +519,7 @@
 .timeline__item h4 {
   margin: 0 0 6px;
   font-size: 1.05rem;
+  overflow-wrap: anywhere;
 }
 
 .contact-list {
@@ -557,6 +563,7 @@
   text-align: right;
   font-weight: 600;
   line-height: 1.4;
+  overflow-wrap: anywhere;
 }
 
 .reveal {
@@ -615,6 +622,50 @@
     padding-top: 12px;
   }
 
+  .section {
+    padding-top: 52px;
+  }
+
+  .hero {
+    gap: 22px;
+    padding-top: 28px;
+  }
+
+  .hero__copy h1 {
+    font-size: clamp(2.35rem, 14vw, 3.6rem);
+    max-width: none;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .hero__stats,
+  .about-grid,
+  .skills-layout,
+  .timeline-grid,
+  .contact-grid,
+  .project-grid,
+  .highlights {
+    gap: 16px;
+  }
+
+  .section-heading h2 {
+    max-width: none;
+    font-size: clamp(1.8rem, 8vw, 2.7rem);
+  }
+
+  .panel,
+  .project-card,
+  .profile-card {
+    padding: 20px;
+  }
+
   .topbar,
   .panel,
   .project-card,
@@ -627,6 +678,15 @@
   .profile-card__head {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .project-card__index {
+    letter-spacing: 0.14em;
+  }
+
+  .contact-link {
+    align-items: flex-start;
+    word-break: break-word;
   }
 
   .profile-card__photo-wrap {
