@@ -278,7 +278,8 @@ function App() {
 
             <h2>Jude Christian Amoguis</h2>
             <p className="profile-card__role">
-              IT Support, Data & Entry-Level Development
+              IT/Technical Support | Data Encoder | Entry-Level Front-End
+              Developer
             </p>
 
             <p className="profile-card__text">
