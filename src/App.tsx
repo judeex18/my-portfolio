@@ -213,7 +213,8 @@ function App() {
       <section className="hero section" id="home">
         <div className="hero__copy reveal">
           <p className="eyebrow">
-            Technical Support, Data & Development Portfolio
+            Technical Support | IT Support | Data Encoder | Entry Level
+            Front-End Developer
           </p>
           <h1>
             I help users resolve issues efficiently and build practical
